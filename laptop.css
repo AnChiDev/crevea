@@ -1,0 +1,128 @@
+/*------------laptop --------*/
+@media only screen and (min-width: 992px) {
+    #navbarmenu{
+        background-color: rgb(46, 101, 250)  !important;
+    }
+    #navbarmenu .navbar-brand{
+        color:white;
+    }
+    #navbarmenu li a {
+        color: #ffeaa7;
+    }
+    .navbar li a:hover {
+        color: #f8c200 ;
+    }
+    .fa-search{
+        color: #ffeaa7;
+    }
+    .navbar-brand{
+        font-family: 'Unna', serif; 
+        color: white ;
+        margin-left: 3em;
+    }
+    /*aboutus*/
+    #aboutus{
+        width:80%;
+    }
+    /*education ourbs*/
+    #education{
+        width:100%;
+    }
+    .edupic{
+        width: 100%;
+        float:left;
+        height: 475px;
+    }
+    .ourbsi{
+        float:right;
+        object-fit: cover;
+        width: 100%;
+        height: 475px;
+    }
+    .nd1{
+        top: 5%;
+        width: 80%;
+        left: 10%;
+        text-align: left;
+        font-size: 90%;
+        right: 0;
+        
+    }
+    #education .limg{
+        position: relative;
+        margin-top: 1%;
+        width: 10%;
+        float:left;
+        left: 5%;
+    } 
+    
+    #education .fa-window-minimize{ 
+        margin-top:2%;
+        margin-bottom:2%;
+    }
+    /*news*/
+    #news1{
+        width: 90%; 
+       
+    }
+    #news{
+        display:block;
+    }
+    #news a{
+        color:black;
+    }
+    .newborder1{
+        width: 30%;
+        margin-right: 5%;
+        float:left;
+        display: inline;
+      
+    }
+    .newborder2{
+        width: 30%;
+        margin-right: 5%;
+        float:left;
+        display: inline;
+        
+    }
+    .newborder3{
+        width: 30%;
+        display: inline-block;
+    
+    }
+    
+    #news img{
+        width:100%;
+        height: 200px;
+    }
+    /*contact*/
+    #contact button{
+        float:left;
+        margin-left: 92%;
+    }
+    #contact{
+        width: 85%;
+        padding-bottom:3%;
+    }
+    #contact input[type=text]{
+        margin-bottom: 5%;
+        width: 30%;  
+    }  
+    #contact textarea{
+        width:92%; 
+    } 
+    .map{
+        margin-top: 15%;
+    }
+    #footer{
+       font-size: 0.9em;
+        padding-top: 5%; 
+    }
+    #footer .row{
+        margin: 0;
+    }
+    .endweb{
+       width:75%;
+      margin-left: 10%;
+    }
+    }
